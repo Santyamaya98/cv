@@ -37,10 +37,9 @@ La página incluye:
 
 ## 🌐 Ver la página
 
-Una vez publicado con GitHub Pages, el sitio estará disponible en:
 
 ```
-
+https://santyamaya98.github.io/cv/
 ```
 
 

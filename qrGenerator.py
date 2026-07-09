@@ -1,6 +1,6 @@
 import qrcode
 
-url = "https://santyamaya98.github.io/my-portfolio/"
+url = "https://santyamaya98.github.io/cv/"
 
 img = qrcode.make(url)
 

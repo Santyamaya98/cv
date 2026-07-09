@@ -198,6 +198,69 @@ img.pdf-preview {
     color: white;
     border-color: #0056b3;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 10 px; /* Space between the two sections */
+    max-width: 900px;
+    margin: 10px auto; /* Centered on the page */
+    padding: 0 5px;
+}
+
+/* Base style for each section box */
+.mainBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    text-align: center;
+    background: #fdfdfd; /* Optional: subtle card background */
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+/* Section Headings */
+.mainBottom h1 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* QR Code Image sizing */
+.qr-code {
+    max-width: 160px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+/* Styled Link Button */
+.button {
+    display: inline-block;
+    padding: 18px 28px;
+    background-color: #007BFF;
+    color: #ffffff;
+    text-decoration: none; /* Removes underline */
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Button Hover State */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Button Click State */
+.button:active {
+    transform: scale(0.98);
+}
+
+
 /* ==========================================================================
    3. DESKTOP DESIGN BREAKPOINT (769px and up)
    ========================================================================== */
@@ -207,6 +270,7 @@ img.pdf-preview {
         max-width: 1200px;
         margin: 0 auto; /* Centers the whole CV layout on big screens */
     }
+
 
     .pdf-container,
     .img-container {
